@@ -1,3 +1,3 @@
-output "Public_Ip" {
+output "vpc_id" {
     value = aws_vpc.Project.id
 }

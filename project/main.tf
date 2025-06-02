@@ -16,6 +16,7 @@ module "subnets" {
 
 module "IGW" {
   source = "./modules/IGW"
+  vpc_id = module.vpc.vpc_id
 }
 
 module "NAT" {
